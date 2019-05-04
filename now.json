@@ -2,7 +2,15 @@
   "version": 2,
   "builds": [
     {
-      "src": ["*", "**/*.css", "**/*.html", "**/*.png"],
+      "src": "*",
+      "use": "@now/static"
+    },
+    {
+      "src": "**/*.css",
+      "use": "@now/static"
+    },
+    {
+      "src": "**/*.png",
       "use": "@now/static"
     }
   ]
