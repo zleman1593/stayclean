@@ -1,0 +1,6 @@
+section .panel-group .panel, section .panel-group .panel .panel-heading {
+  border-radius: 0;
+}
+section .panel-group .panel .panel-heading a {
+  color: black !important;
+}

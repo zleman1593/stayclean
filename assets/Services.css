@@ -1,0 +1,31 @@
+section .panel-group .panel, section .panel-group .panel .panel-heading {
+  border-radius: 0;
+}
+section .panel-group .panel .panel-heading a {
+  color: black !important;
+}
+
+section .panel-group .panel .panel-body {
+  position: relative;
+}
+section .panel-group .panel img {
+  height: 400px;
+  padding: 20px;
+  margin: 10px auto;
+  border-radius: 10px;
+  overflow: hidden;
+  display: block;
+  background: #eee;
+  object-fit: contain;
+}
+section .panel-group .panel .carousel.left, section .panel-group .panel .carousel.right {
+  position: absolute;
+  top: 200px;
+  height: 80px;
+}
+section .panel-group .panel .carousel.left {
+  left: 0;
+}
+section .panel-group .panel .carousel.right {
+  right: 0;
+}

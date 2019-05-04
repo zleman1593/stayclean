@@ -1,0 +1,53 @@
+#bbb-badge, #bbb-badge-popup {
+  top: 70px !important;
+  right: 10px !important;
+}
+#hero {
+  position: relative;
+  background: url('https://images.pexels.com/photos/339119/pexels-photo-339119.jpeg?w=1260&h=750&auto=compress');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  box-shadow: inset 0 0 10px 0 black;
+  color: white !important;
+}
+
+#hero * {
+  z-index: 1;
+}
+#hero h1, #hero small, #hero b {
+  text-shadow:
+   -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+     2px 2px 0 #000;
+}
+#hero b {
+  margin-top: -20px;
+}
+#hero small {
+  font-family: 'Cuprum', sans-serif !important;
+  font-size: 20px;
+}
+
+.carousel {
+  max-width: 800px;
+  margin: 0 auto;
+}
+#why {
+  position: relative;
+  background: url('https://images.pexels.com/photos/125510/pexels-photo-125510.jpeg?w=1260&h=750&auto=compress');
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+#why [class^='col'] {
+  padding: 10px 5%;
+  background: rgba(0,0,0,0.7);
+}
+
+@media screen and (max-device-width: 1024px) {
+  #hero {
+    background-attachment: scroll;
+  }
+}
